@@ -1,50 +1,70 @@
 # iezam-potter.github.io
 
-## Olá, eu sou o Iezam
+## 👨‍💻 Sobre mim
 
-Sou desenvolvedor Full Stack, focado em PHP, automação e Wordpress.
+Desenvolvedor Full Stack focado em:
 
-**Atualmente desenvolvendo sistemas web com:
 - PHP
 - WordPress
+- Automação
 - APIs
-- Automação com Cron Jobs
+- Estruturação backend
 - Manipulação de arquivos JSON
+
+Atualmente desenvolvendo sistemas web com foco em automação de processos e integração com filesystem.
 
 ---
 
-# Projeto em destaque
+# 🚀 Projeto em destaque
 
-## Sistema de catálogo automatizado para obras de arte
+## Sistema automatizado para catálogo de obras de arte
 
 Sistema completo desenvolvido para automatizar:
+
 - leitura de PDFs;
 - sincronização de imagens;
 - geração de coleções;
-- metadados;
-- automações com cron;
+- gerenciamento de metadados;
+- automações com cron jobs;
 - exibição dinâmica em WordPress.
 
-### Tecnologias
+---
+
+# 🛠 Tecnologias utilizadas
+
 - PHP
-- Bashscript
-- WordPress
 - JavaScript
+- WordPress
+- Bash Script
 - Cron Jobs
 - JSON
 
-### O que desenvolvi
+---
+
+# ⚙️ O que desenvolvi
+
 - Backend completo
 - Frontend
-- Estrutura de automação
-- Sistema de metadata
+- Sistema de automação
+- Estrutura de metadata
 - Integração com filesystem
 - Deploy em servidor online
 
-### Desafios encontrados e resolvidos
+---
+
+# 🧩 Problemas resolvidos
+
 - Sincronização automática de arquivos
-- Divergências de ambientes
+- Divergência entre ambientes
 - Incompatibilidade de ferramentas
 - Cache e atualização de dados
-- Estruturação de metadata central
-- Remoção automatizada de conteúdo inválido**
+- Estruturação centralizada de metadata
+- Remoção automatizada de conteúdo inválido
+
+---
+
+# 🌐 Portfólio
+
+Acesse o site:
+
+https://iezam-potter.github.io
