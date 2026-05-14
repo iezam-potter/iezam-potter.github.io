@@ -65,6 +65,16 @@
          alt="Pipeline automatizado">
   </figure>
 
+<p>
+   blank.yml é o workflow, iniciado por cron, que instala dependências e inicia o pdf-sync.sh, que por sua vez sincroniza
+   o repositorio com os dados do google drive (a fonte centralizada) e posteriormente o repositorio com
+   a Hostinger. Os dados essenciais são extraídos pelo script também, através da ferramenta pdfimages.
+  
+   sync-colecoes.php é um fragmento do pipeline que atua como construtor de colecoes.json através do mapeamento dos dados,
+   resididos em public_html/data/imagens/Orestes. 
+
+   
+</p>
 
 </main>
 </body>
