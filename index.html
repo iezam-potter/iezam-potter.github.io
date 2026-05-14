@@ -65,18 +65,66 @@
          alt="Pipeline automatizado">
   </figure>
 
-<p>
-   blank.yml é o workflow, iniciado por cron, que instala dependências e inicia o pdf-sync.sh, que por sua vez sincroniza
-   o repositorio com os dados do google drive (a fonte centralizada) e posteriormente o repositorio com
-   a Hostinger. Os dados essenciais são extraídos pelo script também, através da ferramenta pdfimages.
+<section>
+
+    <h2>Workflow e sincronização</h2>
+
+    <p>
+        O arquivo blank.yml representa o workflow automatizado
+        iniciado periodicamente por cron jobs.
+    </p>
+
+    <p>
+        O workflow instala dependências e executa o script
+        pdf-sync.sh, responsável pela sincronização entre
+        Google Drive e Hostinger.
+    </p>
+
+</section>
+
+<section>
+
+    <h2>Processamento de PDFs</h2>
+
+    <p>
+        Informações essenciais das obras são extraídas
+        automaticamente através da ferramenta pdfimages.
+    </p>
+
+</section>
+
+<section>
+
+    <h2>Geração de coleções</h2>
+
+    <p>
+        O script sync-colecoes.php atua como construtor
+        do arquivo colecoes.json através do mapeamento
+        dos dados localizados em
+        public_html/data/imagens/Orestes.
+    </p>
+
+</section>
+
+<section>
+
+    <h2>Integração de metadata</h2>
+
+    <p>
+        Os plugins colecoes-plugin.php e
+        obras-disponiveis.php realizam integração entre
+        metadata.json e colecoes.json através de loops
+        e operações de merge.
+    </p>
+
+    <p>
+        Os dados processados são utilizados para exibição
+        dinâmica nas páginas da galeria.
+    </p>
+
+</section>
+
+
   
-   sync-colecoes.php é um fragmento do pipeline que atua como construtor de colecoes.json através do mapeamento dos dados,
-   resididos em public_html/data/imagens/Orestes. 
-
-   Por sua vez, os plugins colecoes-plugin.php e obras-disponiveis.php, fazem um array_merge através de loops que percorrem
-   os dados json (metadata.json e colecoes.json), e desta forma, são utilizados os dados atualizados para exibição em 
-   determinadasd páginas.
-</p>
-
 </main>
 </body>
